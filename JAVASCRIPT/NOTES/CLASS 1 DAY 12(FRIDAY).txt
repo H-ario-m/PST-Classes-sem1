@@ -1,0 +1,10 @@
+CLASS 1 DAY 12(FRIDAY)
+
+
+left side of the assignment its rest ---used with normal variables
+right side of the assignment its spread operator-- used with array and objects 
+
+
+
+Math.trunc()---------------> removes decimal part of the value 
+

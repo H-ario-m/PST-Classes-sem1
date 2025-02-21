@@ -1,0 +1,113 @@
+CLASS 1 DAY4
+   
+
+non primitive data type- collection of vslurd ot complex data is stored --- arrays , object,function   (they are not predefined the user can define the datatype according to the usage)
+ 
+
+ 
+primitive- a single entity can only be stored 
+
+
+
+OPERATORS
+
+
+SUPPOSE WE HAVE TO CHECK THE TYPW OF DATATYPE 
+
+WE CAN ISE typeof operator
+like 
+
+typeof x // undefined 
+typeof true// Boolean
+
+
+IF I CHRCK TYPE OF NULL IT WILL RETURN OBJECT (EXCEPTION)
+
+NULL IS PRIMITIVE BUT THE TYPE OF IT SHOWS IS OBJECR WHICH IS NON PRiMITIVE \
+
+
+
+
+                                           *******CLASS2******* 
+
+NAN- NOT A NUMBER (SOMETHING THAT CANNOT BE DSIPLAYED / NO RESULT) eg-- string - number (cannot be displayed there is no reault to it)
+
+TYPE OF NAN--- NUMBER
+
+
+TYPE OF 125n-------bigint
+
+
+Array:used to store a lot of data in a single vareiale 
+  
+
+
+there is no defined datatype of array
+all function , array , object,  have tne datatypw -- OBJECT
+
+
+
+
+
+
+
+                                  ******************** BHARAT SIR (STARTUP) **************************
+
+CONVINCE SOMEONE WITHIN MINUTES
+10-12 WORDS ME BATANA H
+USE LESS JARGANS
+SIMPLE RAKHNA H 
+
+
+                                ACCELERATOR
+Y COMBINATOR 
+TECHSTARS 
+GOOGLE FOR STARTUPS  
+
+         ACCELERATORS AND INCUBATORS 
+
+accelerator grows an startup having POC proof of concept 
+
+simon sinek ------ start with why
+
+public company and private company ?????????????
+crypto ??
+
+               ON FUNDING 
+1 ANGEL INVESTING---
+2 VENTURE CAPITAL 
+3 PE CAPITAL
+4 DEBT FUNDING
+5 GRANTS AND ESG----- FOR SOCIAL STARTUP
+6 IPO
+
+                 INCUBATORS
+
+WHICH INCUBATOR IS BEST FOR YOU ??   WHY ??
+       
+          BUSINESS MODELS
+ 
+B2B B2C B2G B2B2C C2C
+
+hw=============== TECHNICAL WAYS TO REDUCE TIMW IN LOADING THROUGH FROMTEND 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+

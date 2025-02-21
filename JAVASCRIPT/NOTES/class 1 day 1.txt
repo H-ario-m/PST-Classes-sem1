@@ -1,0 +1,5 @@
+**class 1 day 1**
+Python - Ai Ml
+Java - backend 
+cloud engineering - go lang , Kubernetes
+

@@ -1,0 +1,34 @@
+Cons of Asynchronous Programming
+It can be challenging to understand due to its complexity.
+
+Developers must have a deep understanding of callbacks and recursive functions.
+
+Writing clean code can be challenging.
+
+It is difficult to debug.
+
+It can be time-consuming to write.
+
+It may be difficult to execute in some programming languages.
+
+A user cannot easily determine if a request fails or not without the proper usage of callbacks.
+
+Differences Between Synchronous and Asynchronous Coding
+The differences between synchronous and asynchronous programming can be summed up as follows:
+
+Synchronous code moves slowly and only does one task at a time. Asynchronous code executes numerous tasks simultaneously and finishes them quickly.
+
+Because sync is single-threaded, only one program will be executed at a time, leaving all other tasks idle while the first one is being finished. On the contrary, async is multi-threaded, meaning multiple operations or programs can operate at the same time on a single thread.
+
+Sync is blocking. It will only make one request at a time to the server, and then wait for the server to respond. In contrast, async is nonblocking; it makes several requests to the server.
+
+In async, when one request fails, it does not affect another request, unlike sync.
+
+Before performing any asynchronous programs, the JavaScript engine first executes all synchronous code.
+
+Synchronous vs Asynchronous: Which Is Better?
+Between asynchronous and synchronous JavaScript, there is no superior method. Keep in mind that it’s important to choose the right method because not all tasks can be performed asynchronously. To improve the user experience, asynchronous programming enables more tasks to be completed simultaneously, while synchronous programming makes it simpler for developers to write code, but can cause delays.
+
+Most times, sync and async work together, and neither is better across the board. Naturally, certain projects are more well suited to one or the other. The choice comes down to what needs to be done, and how the code will be planned.
+
+Overall, the most important thing is to evaluate a project’s programming needs, and then select the best approach for the specific software requirements.

@@ -1,0 +1,89 @@
+CLASS 1 DAY 6 (TUESDAY)
+
+
+                                FUNCTIONS
+
+
+Function is a reusable block of code which ise used to perform some specific task 
+define it once and call it multiple times 
+--organized code 
+--reusability
+--readability
+
+function name(parameter1,parameter2,parameter3...........)
+{
+//body of the function 
+}
+          
+                                CONTROL FLOW
+
+                                      RETURN STATEMENT
+
+we cam use return keyword to return anything from the code 
+nothung will run after trhe retrun statement 
+
+anything return in a function after the retrun statement will not be executed 
+
+function greet(){
+console.log("hello")
+return "his name is chigota";
+console.log("djfb");
+}
+
+
+output will not bave the last console because it is after the return statement
+
+
+
+
+                                        JAYA SIR 
+
+
+function add(n1,n2)
+{console.log("addition");
+let result=n1+n2;
+}
+
+console.log(add(27+53))     ==============   output -- addition
+
+
+
+
+
+
+
+
+
+function add(n1,n2)
+{console.log("addition");
+let result=n1+n2;
+return result
+}
+
+console.log("result",add(27+53))    =================  output -- addition    result 15
+
+here "result" is printed between additiona and 15 due to a feature called call stack 
+
+
+
+due to the call stack feature we can also call a function before even defining the function 
+
+
+
+
+
+`` backtics are used insted of "" because backtics print everything from a line to a paragraph and camn prioiont in different lines too
+also we can use ${} to insert values inside the strings 
+
+
+
+
+
+
+                                                       GAURAV SIR
+
+
+
+
+   
+

@@ -1,0 +1,207 @@
+CLASS 1 DAY 5 (MONDAY 9)
+
+
+OBJECTS AND ARRAYS 
+
+OBJECT - obejcts are used to represent a thing in code with different properties and functionalities
+
+Properties
+car.name=Ferrari
+car.model=
+car.weight= 
+
+CAR objects have different properties but the values differ 
+ 
+Methods
+car.start()
+car.drive()
+car.brake()
+
+Car Objects have sane mathoda just the time differs
+
+How to define an object
+-- using an object literal
+defining an empty object --===== 
+const car={};
+car.name="kdmc"
+
+
+defining an object
+const opo={
+friyuas:"ahdbhc",
+idhcuich:"jdbc",
+};
+
+
+taking specific properties from object 
+
+let fri= opo.friyuas;
+
+    or 
+
+let fri=opo["friyuas"];
+
+
+printing 
+
+console.log(person.firstname+"is"+person.age+"years old") 
+
+     OR 
+
+console.log(`${person.firstname} is a ${person.age} years old`)
+
+HERE BACKTICS CAN BE USED IN CONSOLE RO PRINT anything and $ sign is used to print the value stored in a variable 
+
+
+
+
+
+WE CAN ALSO ASSIGN NEW PROPERTIES TO AN OBJECT OUTSIDE AN OBJECT USING 
+PERSON.NOTHING= "EKBNF";
+
+
+                                                                                          ARRRAYS
+
+
+A SPECIAL VARIABLE WHICH CAN HOLD MULTIPLE VALUES OF SAME DATATYPE 
+
+CONST ARRAY = ["HDB","JDC","OPDMC","HJHJDBC"];
+
+
+empty array
+
+const array=[];
+array[0]="jfn";
+array[1]="ieief";
+
+
+                    INDEXING 
+
+
+array length = 10
+[][][][][][][][][][] length=10(10 values stored )
+0  1 2 3 4 5 6 7 8 9
+           ^
+          element at 5th index
+
+why with 0??
+
+
+changing value in array 
+array[3]="eokd";
+
+
+
+fruits.push======enters a value at the end of the array
+fruits.length=====enters the length of the array
+
+fruits.pop=======removes the last element
+
+
+fruits.fill== fills the specified ewlements with the value ill be inserting;
+fruits.fill("chigota")=====fills all the values 
+fruitys.fill("chigota"2,6)
+                       ^
+                    all elements ranging from 2 to 4 will be filled 
+
+
+
+
+                     OBJECT INSIDE AN OBJECT 
+const location={
+    city:"mumbai",
+    country:"india",
+    state:"maharashtra",
+    address:{
+        street:"boriwali",
+        landmark:"film city",
+        society:"Gokuldham society"
+    }
+}
+console.log(location.address);
+ console.log(location.address.street);
+ console.log(location["address"]["society"])
+    console.log(location.address["society"])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                  IMPORTANT
+
+
+CONSOLE.LOG({}+[])=============== [object + Object ]
+                                     ^
+                        small object determines the type of the value (object) and the capital Object tells what it is i.e an OBject ............>>>>>>>>>>
+
+ 
+                           
+                         
+console.log(typeof({}+[])) ============== whenever + is added it tries to get converted to primitive data type and in this casw its a string
+
+
+
+
+Q what are the rules to define key in object
+Q difference between [] and . in object 
+Q what are the specific reasons to use object or array 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                        ARTIFICIAL INTEK
+
+
+
+Q seaborn ke data ke baare me janna h
+
+
+
+
+
+
+
+
+  
+
+
+ 
+
+
+
+
+
+

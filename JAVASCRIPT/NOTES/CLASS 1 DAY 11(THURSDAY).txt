@@ -1,0 +1,245 @@
+CLASS 1 DAY 11(THURSDAY)
+
+//value vs reference types
+
+THE KEY DIFFEREMCE BETWEEN REFERENCE AND VALUE LIES IN HOW THEY ARE STORED AND MANIPULATED 
+
+
+
+PASS BY VALUE(primitive data type h)
+
+VALUE TYPES store actual value in the variable- a=10;b=a;a+=2;
+when you assign a value type variable to another variable or pass it as an argumwnt to a function ,a value copy is created 
+this means changes to the new variable will not affect the previous one
+
+
+
+
+
+
+PASS BY REFERENCE(only for non primitive)
+
+//inside function me jo bhi changes aayenge wo function ke bahr bhi dikhayenge changes
+
+
+ek object h -- usme value assign kr di = memory block ban gaya
+
+dusra object banaya usko equal kiya object 1 ke
+
+agar dono me se ek ki bhi value change karenge toh dobo ki value me changes aa jayenge 
+
+eg-- let arr1=[8,7,6,5]
+let arr2=arr1
+arr2.push(4)
+console.log(arr1,arr2)// output== [8,7,6,5,4]
+
+
+
+
+
+
+
+
+
+
+
+CLONING OF AN OBJECT 
+
+
+
+WHEN WE DONT WANT TO UPDATE THE OLD OBJECT AND ONLY THW NEW OBJECT
+
+//spread method
+spread operator -- it was introduced in ES6 and can spread values in an objeft with three dots in front\.
+this is no longer referencered , meaning changing the object values will not affect the original object
+
+
+const obj ={
+
+
+
+}
+
+let clone = {...obj}
+
+
+
+
+
+
+
+
+
+
+
+//object.assign()
+
+
+let clone=Object.assign({},obj)
+
+
+
+
+
+//JSON.parse
+
+
+let clone= JSON.parse(JSON.stringify(obj))
+
+
+
+
+
+
+
+
+
+SHALLOW CLONING V S DEEP CLONING
+
+
+SHALLOW CLONING----ONLY REFERENCE IS COPIED
+ 
+
+--------------------PARTIAL DEEP COPY====-------===== ONLY THE FIRST LEVEL OF PROPERTIES WILL REMAIN UNCHANGED 
+
+WHEN WE USE SPREAD OR ASSIGN ONLY THE FIRST LEVEL IS CLONED AND THE DEEPER OBJECTS CAN BE CHANGED OR REFERENCED
+
+
+let object={
+name:"jibd"
+ge:"3edqe"
+whefb:{
+sdsjbjf:"djn"
+
+}
+let obj={...object}
+let obj.whefb.sdsjnjf="799"//// values will change!!!
+
+
+====================DEEP COPY-- COPIES ALL THE LEVELS OF OBJRCTS AND THE referencing is not possible
+
+
+
+  
+
+let object={
+name:"jibd"
+ge:"3edqe"
+whefb:{
+sdsjbjf:"djn"
+
+}
+let obj=JSON.parse(JSON.stringify(object))
+let obj.whefb.sdsjnjf="799"// the values of the originl will not change
+
+
+
+
+
+
+
+
+
+
+//REst operator 
+
+
+
+...a-------------------used inside a function to print an array inside a function as a parameter 
+
+
+
+
+
+
+///MATH FUNCTION
+
+
+Math.max(a,b,d,ds,c)
+
+Math.min(as,d,we,d,as)
+
+Math.random()
+
+Math.pow(2,4)
+
+Math.sqrt(a)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+///////-------------------------------------------------------------------------------GAURAV SIR-----------------------------------------------------//////
+
+
+SHALLOW COPY -- DIFFERFENT REPLICA FOR THE SAME MEMORY REFERENCE AND THE XHANGES ARE VISIBLE IN THE ..... THEY DO NOT STORE THE VALUE STORE THE REFERENCES 
+
+
+DEEP COPY---- THEY CREATE SEPERATE MEMORY BLOCKS FOR THE NEW CLONED / COPIED OBJECT
+
+
+ 
+ASSIGN / SPREAD------------------IT WAS FINE UNTIL THERE WAS SOME NESTED OBEJCTS
+
+
+
+
+
+
+
+//JSON.parse
+
+
+let clone= JSON.parse(JSON.stringify(obj))
+
+
+FIRST CONVERT THE OBJECT INTO A STRING AND AFTER THAT WITH JSON.PARSE WE WILL CONVERT THE STRING TO AN OBJECT
+
+
+
+BUTTTT!!!!!
+
+it does not copy the function not does it convert the function to string
+
+
+we use lodash or that
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
