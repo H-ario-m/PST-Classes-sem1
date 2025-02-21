@@ -1,0 +1,152 @@
+                             CLASS 1 DAY 8(THURSDAY)
+
+
+
+
+CONTROL STATEMENT 
+
+JS CONTROL STATEMENT IS USED TO CONTROL THE EXECUTION OF PROGRAM BASED ON SPECIFIC CONDITION.
+
+
+
+IF STATEMENT 
+IF ELSE STATEMENT
+SWITCH STATEMENT
+
+
+IF STAMENT ====  EXECUTES CODE BASED ON SOME SPECIFIC STATEMENT 
+     if (condition){
+
+
+// enters only if the condition is true if not it exits the code 
+
+}
+
+
+
+
+ELSE SYATEMENT ===  IF THE IF CONDITIONN EXECUTES FALSE WE CALL IT TO ELSE THAN ELSE STATEMNT IS USED 
+
+
+       else
+{
+// no condition is added to else and if the if statement gets executed the code wil skip the if part 
+
+}
+
+
+
+
+ELSE IF STATEMENT ==== WE CAN NOW USE MULTIPLE CONDITIONS IN IF ELSE USING ELASE IF IF THE IF IS FFALSE IT WILL GO TO THE ELSE IF THEN AGAIN THE NEXT ELSE IF THEN FINALLY TO ELSE
+
+
+  else if ("condition")
+{
+
+
+}
+
+
+
+
+                                   NESTED IF ELSE STAMENT 
+
+IF FIRST CONDITION IS TRUE IT WILL COME INSIDE THE BLOCK OF THE STATEMENT AND WILL CHECK THE CONDITIONS THERE 
+IF THE FIRST IS NOT TRUE IT WILL DIRECTLY MOVE TO THE NEXT CONDITION AND THEN AGAIN IF ITS TRUE IT WILL GO INSIDE THE BLOCK AND CHECK THE CONDITIONS THERE
+
+
+
+
+if (){
+       if(){
+            }
+        else{
+            }
+}
+
+ 
+
+
+
+
+
+
+
+                                                           SWITCH CASE(switch can reduce the time complexity of the code)
+
+
+
+
+CASE STATEMENT EXECUTES DIFFERENT BLOCKS OF CODE BASED ON THE VALUE OF THE GIVEN EXPRESSION 
+
+
+
+
+switch ("expression"){
+
+
+case 1 : 
+
+// when the first code is true the code will stop executing after it and directly move outsode the block;
+breAK;
+
+case 2: 
+//if the above is not true it will move tp yhe n ext 
+
+break;
+
+default :
+// if the conditions are not true it moves to default and anythiomg inside the block is executed and default doesmt have a break statement
+
+
+                                       
+                                                   GAURAV SIR 
+
+
+                           IF ELSE WE CAN ADD BOTH BOOLEAN AND CONDITION AND THE BLOCK WILL BE EXECUTED 
+
+
+CASE CAN ONLY HAVE A PATTERN VALUE BECAUSE SWITCH IS TAKING BOOLEAN ALSO AS A PATTERN 
+
+
+
+
+
+
+                                       CONTROL FLOW STATEMENTS -----------> CONDITIONAL AND LOOPS
+
+
+
+
+
+
+TDZ AND HOISTING
+
+
+HOISTING====== WHEN WE CAN ACCESS THE variablE BEFORE DECLARATION IS CALLED HOISTING
+we can acess the variable vbefore declaration
+
+
+
+TDZ=== 
+a situation in js a time perid betweeten accesssiibg rhe variabk=le and initialization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

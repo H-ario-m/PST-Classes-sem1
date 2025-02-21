@@ -1,0 +1,48 @@
+.e2{
+    color: red;
+    background:linear-gradient(45deg,red,black,blue);
+    width: 40%;
+}
+.e3{
+    color: blue;
+    width: 40%;
+    background: linear-gradient(25deg,yellow,black);
+    border: 20px solid;
+    box-sizing: border-box;
+ 
+}
+.exp{
+    width:20%;
+}
+.oo{
+    display: flex;
+    background-color: cornflowerblue;
+}
+/* targets direct child of the div element */
+.yoo > p{
+    color: brown;
+}
+/* pseudo classes */
+.yoo:hover{
+    color: blue;
+
+}
+
+.e2:active{
+    background: aqua;
+}
+
+.e3:focus{
+    color: darkorange;
+}
+
+
+.yoo{
+    animation: au 2s infinite alternate;
+}
+@keyframes au{
+0%{background: linear-gradient(45deg,yellow,black);}
+100%{background: red;}
+
+}
+

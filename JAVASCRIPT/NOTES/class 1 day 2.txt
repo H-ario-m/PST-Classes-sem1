@@ -1,0 +1,106 @@
+**class 1 day 2**
+
+
+java script
+
+- javascript is the most popular language , easy to learn, language of web, scripting(programming language that consists of small programs) language
+- GFG INTRODUCTION TO JS VERSIONS 
+FEATURES
+.form validation - if wont let the user enter any incorrect data like on a login page 
+.date and time- code to insert real time date and time
+.multiple tasks
+.Dom manipulation- popups, adding some things, responsive clicking and interaction with user
+
+
+APPLICATION OF JS
+website dev
+wep application 
+smart watch
+android phones 
+
+javascript can also run outside the browser using node js it can be used for data manipulation and build bckend applications 
+
+
+variables(var)
+
+-case sensitive
+-used to store data in javascript
+-can only consist og character $ and _ 
+-cannot be a reserved keywords
+
+
+constants(const)
+-cannot change the value once it is declared
+
+
+
+
+
+
+
+
+
+WHAT IS THE DIFFERENCE BETWEEN SCRIPTING AND PROGRAMMIMG LANGUAGE??
+=== scripting-interpreter 
+      programming-compiler
+
+
+
+
+HOW WE DECIDE , WHICH TRANSLATOR WE SHOULD USE?
+===we cant it depends on language
+
+
+
+
+IS THERE ANY STANDARIZTION TO CALL ASSEMBLY LANGUAGE MEDIUM LEVEL OR LOW LEVEL??
+===  low level and machine level are not completely similar because ml has 0,1 
+assembly language is a medium level and a low level because its a step which is a low level but a process to a high
+
+
+
+
+
+
+
+
+
+
+
+COMPILER   
+                                                                                                                          INTERPRETER
+creates separate file after translating so it can be executed on any                                         it directly converts the code to machine language so it runs line by line
+software/os
+
+languages which uses compiler are called programming language                                                if a language uses interpreter its a scripting language 
+c,c++,csharp,java                                                                                            python javascript
+
+
+
+
+
+
+
+
+
+                                   JAVA SCRIPT
+Brenden eich(Netscape)
+lang - mocha (10days)- adding interaction
+lang - livescript - javascript
+
+after 2009 node js created and js could be executed on local servers tooC
+
+Variables
+- variable are a set of memory storing block which helps you to store and fetch dsta from it
+
+
+Constant
+-constants are variables whose value cannot be changed 
+
+
+WHAT IF JS HAD A COMPILER??
+
+
+
+                IDE
+

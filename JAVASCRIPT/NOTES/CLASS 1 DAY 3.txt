@@ -1,0 +1,180 @@
+                                                              CLASS 1 DAY 3
+
+
+
+
+
+
+2 types - variables (unfixed) and literals (constant)
+
+
+/////SOME RULES TO DECLA RE NAME  OF VARIABLES
+-case sensitive
+-begin with lwtter _ or $ and can consist of same 
+-cannot be a reserved keyworf
+
+
+/////DECLARING A VARIABLE 
+	var age ;
+let name ;
+OR
+let a=4,b=44;
+
+
+////CONSTANT 
+
+- we always have to assign a value to a  const or else there will be an error (missing initializer)
+- constant value cannot be changed/reassigned 
+- const value cannot be redeclared
+
+
+/////COMMENTS
+
+used to understrnaf the code better 
+single line and multiline 
+// and /* kncl;wddmcclwmc*/
+
+
+///DATA TYPES 
+
+number 
+string 
+null
+undefined
+Boolean
+
+
+====== Number --- let a=2 , let wef=3221;
+====== infinity ----- let a=5/0--(infinity)              let b= -3/0--(-infinity)
+====== we can use notation  e to represent the numbers that are very long ------ let num = 5e9;(5000000000)   let num2= 5e-5;(0.00005)
+
+
+///OPERATIOMN 
+let ef=3,b=4235;
+let c=ef+b;
+
+
+======String
+string can be  defined n three ways 
+"jbfowe"
+'khfiownf'
+and even `wefn`(backstick)
+
+
+===Concatanation when 2 or more strings or numbers with strings are added in a single console with+
+
+
+
+=====Boolean 
+
+boolan contains 2 values either true or false 
+let dd= true;
+let krrn= false;
+do not use inverted commas or it wikll be a string 
+
+
+Boolean function -- Boolean()
+
+result = 671;
+console.log(Boolean(result));-- true 
+it will show true for evert input 
+and false will be the resulf of Boolean(0) or an empty string or undefined null and NaN in the Booleanfunction
+
+
+
+===== Null
+null represents no value or nothing null is defined as null
+let a= null;
+
+
+
+
+
+======Undefined  
+when a variable is declared but not assigned with any value the output will automatically be undefined 
+let s; console.log(s);-----undefined 
+
+
+
+
+only for same type of strings i.e nmvberic stribg we can substract
+if the strings are in any other format it will nor display anything
+
+we can use * and / too with numeric strings
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                         CLASSS 2ND
+
+
+
+N-number
+N-null
+B-boolean
+B-bigint
+S-string
+S-symbol
+U-undefined 
+
+
+CAMELCASE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

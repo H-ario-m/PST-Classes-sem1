@@ -1,0 +1,105 @@
+CLASS 1 DAY 9(TUESDAY)
+
+
+
+
+
+
+FOR LOOPS BASIC AND STARTING 
+FOR(ASSIGNING;CONDITION;INCREMENT/DECREMENT)
+
+
+
+
+
+
+
+while loop 
+
+
+let i=0;
+while(i<10){
+console.log(i);
+i++
+}
+
+
+
+
+INFINITE LOOP
+
+
+
+
+
+
+OBJECT
+//FOR IN LOOPS
+
+
+
+FUNCTION PRINT(){
+CONST CAR={MAKE:"JD"
+MODEL:"MNF"
+YEAR:"4234"};
+
+FOR (LET I IN CAR)//objects
+CONSOLE.LOG(`${I}:${CAR[I]}`);
+
+
+
+
+
+
+
+
+
+
+
+//FOR OF LOOPS(ARRAYS)
+
+
+function pfkm(){
+    let arr=[1,2,3,4,5,6,7,8]
+    for(let i of arr)
+    {
+        console.log(`${i}`)
+    }
+}
+pfkm()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//GAURAV SIR
+
+
+
+FOR LOOPS----------------------> WORKS ON RANGE I.E WHEN WE KNOW FROM WHERE TO WHERE
+WHILE LOOPS--------------------> WORKS ON CONDITION AND IT WILL KEEP EXECUTING UNTIL CONDITION BECOMES FALSE(FOCUSES ON CONDITION MORE THAN INCVREMENT DECREMENT OR INITIALIZATION)
+
+
+
+
+
+
+
+
+
+
+
+

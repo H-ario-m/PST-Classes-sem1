@@ -1,0 +1,38 @@
+class 1 day 13(tuesday)
+
+FUNCTION DOESNOT TAKE ANY MEMMORY UNTILL THEY ARE CALLED
+
+// function add(a,b){
+//     return a+b
+// }
+// console.log(add(67,90))
+
+
+
+
+
+
+
+// let add= function(a,b){
+//     return a+b
+// }
+// console.log(add(67,90))
+
+
+
+
+ARROW FUNCTION 
+
+
+let add=(a,b)=>a+b;                                      //SHORTER SYNTAX FUNCTION KEYWORD IS NOT USED BUT THE MEMORY IS SAME     
+console.log(add(67,90))                              //FOR MULTIPLE LINES WE HAVE TO USE RETURN IN ARROW FUNCTION
+
+
+
+
+let add=(a,b)=> {
+            
+         let c=a+b
+          return c;
+
+}
