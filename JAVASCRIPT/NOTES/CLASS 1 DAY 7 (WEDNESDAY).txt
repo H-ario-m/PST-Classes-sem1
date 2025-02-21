@@ -1,0 +1,167 @@
+                              CLASS 1 DAY 7 (WEDNESDAY)
+
+
+
+  OPERATORS
+
+TYPE OF OPERATORS 
+
+
+ ARITHMETIC OPERATOR
+
+
+Addition 
+let x= 10+4;
+
+Substraction
+let d = 10-5
+
+multiplication 
+let m = 545*6
+
+division 
+let div = 5/2
+
+modulus
+let mod = 45%4
+(remainder)
+
+
+EXPONENTIAL 
+
+LET A = 3**3
+
+
+
+
+INCEEMENT(++)
+increase 
+a=5
+a++;
+=== 6
+
+
+DECREMENT(--)
+decrease
+a=5
+a--;
+=== 4
+
+
+
+Assignment Operator
+= - assignment
++= - addition assignment a+= 2 -- a= a+2
+
+-= - subtraction operator a-=3 -- a=a-3
+
+=== strictly equal to
+
+**= exponential assignment 
+
+
+COMAPRISON operator
+
+== equal to
+!== strictly not equal to (along with the value it cheks datatype to unlike notequal to where only values are checked )
+=== strictly equal to (along with the value it cheks datatype to unlike equal to where only values are checked )
+
+
+
+
+
+
+                                                  BITWISE OPERATOR (and &)(BIT WISE OPERATORS TAKE VALUES IN THE FORMAT AND CONVERTS IT INTO BINARY )
+
+0   and 0 - 0
+1 and 0 -- 0
+0 and 1 --- 0
+1 and 1 -- 1
+
+
+ajeeb sa h jo bhi daalenge wo binary me convert hoke kuch output dega
+
+  00001100(12)
+& 00011001(25)
+
+SO OUTPUT WILL BE 00001000(8)
+WHY ?/ BECAUSE DONO KE SINGLE SINGLE DIGITS KE BEECH ME & CHALEGA AND JO OUTPUT AAYEGA WAHI HOGA
+
+
+                                            OR(|) OPERATOR 
+
+0 OR 0 -- 0
+0 OR 1 -- 1
+1 OR 0 -- 1
+1 OR 1 -- 1
+
+
+WHY ?/ BECAUSE DONO KE SINGLE SINGLE DIGITS KE BEECH ME OR CHALEGA AND JO OUTPUT AAYEGA WAHI HOGA
+
+
+
+
+
+
+
+
+                                      LOGICAL OPERATORS (GIVES VALUE IN BOOLEAN FORNAT )
+
+
+
+&& -- BOTH THE EXPRESSONS MYST BE TRUE (last truthy value AND FIRST FALSY VALUE)
+
+|| -- IF EITHER EXPRESSION IS TRUE(LASTY FALSY VALUE OR FIRST TRUTHY VALUE)
+
+!-- NOT OPERATOR 
+
+                
+
+
+                                         TERNARY OPERATOR 
+
+CONDITION ? EXPRESSION 1 : EXPRESSION 2
+
+
+
+                                          GAURAV SIR
+
+
+falsy value:----- undefined null nan "" 0 -0 false
+
+
+
+
++[] --- output -- 0 (when adding + to a string it coinverts to 0)
++""---- out ----- 0 (
+
+
+
+
+
+chain breaking rule]]-- whenever there is false IN && IT STOPS AND FOR || THE FIRST TRUTHY VALUE IS MORE IMPORTANGT IF THE FRIST ONE IS TRUTHY VALUE IT WILL STOP EXCECUTING TO ALL 
+
+
+
+
+true && false = false 
+0
+
+
+
+        
+
+
+
+                                 
+
+
+
+
+
+
+
+
+
+
+  

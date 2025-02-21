@@ -1,0 +1,55 @@
+.name{
+    align-items: center;
+    text-align: center;
+border: 0.2rem dotted ;
+}
+.name img{
+    width:30%
+}
+*{
+    background-color: beige;
+}
+.navi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    border: 0.3rem double;
+    padding:30px
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#about{
+    text-align: center;
+    align-items: center;
+
+}
+
+#projects{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+td:hover{
+background-color: aqua;
+}
+
+#contact{
+    text-align: center;
+    align-items: center;
+    padding: 50px;
+    border: 0.3rem solid;
+    margin:40px;
+
+}
+#contact button:hover{
+    background-color: darkblue;
+    color: white;
+}
+@media screen and (max-width:768px){
+    .navi{
+        flex-direction: column;
+    }
+}
